@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laline
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="img/png" href="Images/logo.png">
+</head>
+
+<body>
+    <header class="mainHeader">
+            <div class="shipping">
+                <p class="marquee">
+                    <p class="uper"
+                        >צבירת ומימוש נקודות DREAM
+                        CARD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;איסוף
+                        עצמי חינם 7–10 ימי
+                        עסקים.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;משלוח
+                        חינם עד הבית בקנייה מעל 199 ₪ | 5-7 ימי עסקים </p>
+                </p>
+            </div>
+        <div>
+        <div class="top_header_row">
+            <div id="searchHeader">
+                <div class="search-header" class="col">
+                    <img alt="חיפוש" src="Images/search.png" height="33.9px" width="32.58px" class="searchIcon" role="button" style="cursor: pointer;">
+                </div>
+            </div>
+        <div id="navbarHeaderApp" class="col">
+            <a href="#">
+                <img src="Images/laline.png" alt="ללין" class="logo" uatype="img">
+            </a>
+        </div>
+        <div id="widgetsApp" class="col">
+            <app-widgets-header>
+                <div class="widget-wrap" style="width: 110%;" class="col">
+                    <a class="item-counter-wrapper">
+                        <img class="userIcon" style="height: 34px; width: 32px;" src="Images/Contact_us.png"alt="אזור אישי" >
+                    </a>
+                        <img src="Images/packet.png" class="cartIcon" style="height: 34px; width: 32px;" alt="סל קניות">
+                    </a>
+                </div>
+            </app-widgets-header>
+        </div>
+        <nav>
+        </div>
+            <div class="mainNav">
+                <ul class="navList">
+                    <li><a class="mainA" href="Pages/bodyCare.html">טיפוח הגוף</a></li>
+                    <li><a class="mainA" href="Pages/FacialCare.html">טיפוח הפנים</a></li>
+                    <li><a class="mainA" href="Pages/ClassicFragrances.html">ניחוחות קלאסיים</a></li>
+                    <li><a class="mainA" href="#">סדרות פרימיום</a></li>
+                    <li><a class="mainA" href="Pages/gifts.html">מארזי מתנה</a></li>
+                    <li><a class="mainA" href="Pages/lifeStyle.html">לייף סטייל</a></li>
+                    <li><a class="mainA" href="Pages/fullSelling.html">הנמכרים ביותר</a></li>
+                    <li><a class="mainA" href="Pages/register.html">התחברות/הרשמה</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <div class="nav-icon"></div>
+            </div>
+        </nav>
+    </div>
+    </header>
+            <div class="hpDiv">
+                <div class="hpDivs">
+                <img class="hpImg" src="Images/bodyScrub.jpg" alt="ll">
+                <img class="hpImg" src="Images/bodyCreamM.jpg" alt="ll">
+                <img class="hpImg" src="Images/bodyMiskV.jpg" alt="ll">
+                <img class="hpImg" src="Images/bodyCreamG.jpg" alt="ll">
+                <img class="hpImg" src="Images/Bath_and_body-.jpg" alt="ll">
+                <img class="hpImg" src="Images/FacialMousseSoap.jpg" alt="ll">
+                <img class="hpImg" src="Images/bodyCream.jpg" alt="ll">
+                <img class="hpImg" src="Images/bodyScrub.jpg" alt="ll">
+                <img class="hpImg" src="Images/bodyCreamM.jpg" alt="ll">
+                <img class="hpImg" src="Images/bodyMiskV.jpg" alt="ll">
+                <img class="hpImg" src="Images/bodyCreamG.jpg" alt="ll">
+                <img class="hpImg" src="Images/Bath_and_body-.jpg" alt="ll">
+                <img class="hpImg" src="Images/FacialMousseSoap.jpg" alt="ll">
+                <img class="hpImg" src="Images/bodyCream.jpg" alt="ll">
+                </div>
+            </div>
+            <script>
+                let currentIndex = 0;
+            function showNextSlide() {
+            const slides = document.querySelector('.hpDivs');
+            const totalSlides = slides.children.length;
+            currentIndex = (currentIndex + 1) % totalSlides;
+            slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+        }    setInterval(showNextSlide, 2000); 
+        
+            </script>
+</body>
+
+</html>
